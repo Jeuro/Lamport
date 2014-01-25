@@ -24,6 +24,7 @@ class Node:
         del self.nodes[self.id]
 
     def run(self):
+        """Execute the node event loop."""
         read_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         read_socket.bind(('', self.port))
         read_socket.listen(5)
