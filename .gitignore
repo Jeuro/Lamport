@@ -1,3 +1,6 @@
+out/
+doc.*
+
 *.py[cod]
 
 # C extensions
